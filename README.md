@@ -18,26 +18,26 @@ This is a Banking Management System developed in C++, using classes and file han
 💾 Save account details to text file  
 ❌ Exit the application  
 ## 📂 FILE STRUCTURE:
-- 📦 Banking-Management-System/
+📦 Banking-Management-System/
 - ├── 🧾 bankapp.cpp -> Menu-driven main program logic
 - ├── 🧾 bank.cpp -> Bank class definitions and operations
 - ├── 📘 bank.h -> Class declarations & function prototypes
 ## ⚙️ HOW TO COMPILE AND RUN:
 ### ✅ METHOD 1: Manual Compilation
-g++ bankapp.cpp bank.cpp -o banking_system
-./banking_system        # For Linux/macOS
-banking_system.exe      # For Windows
+- g++ bankapp.cpp bank.cpp -o banking_system
+- ./banking_system        # For Linux/macOS
+- banking_system.exe      # For Windows
 ### ✅ METHOD 2: Using Makefile (Optional)
-banking_system: bankapp.o bank.o
-	g++ bankapp.o bank.o -o banking_system
-bankapp.o: bankapp.cpp
-	g++ -c bankapp.cpp
-bank.o: bank.cpp
-	g++ -c bank.cpp
-clean:
-	rm -f *.o banking_system
-To compile: make
-To run: ./banking_system
+- banking_system: bankapp.o bank.o
+-	g++ bankapp.o bank.o -o banking_system
+- bankapp.o: bankapp.cpp
+-	g++ -c bankapp.cpp
+- bank.o: bank.cpp
+-	g++ -c bank.cpp
+- clean:
+-	rm -f *.o banking_system
+- To compile: make
+- To run: ./banking_system
 ## 🖥️ MENU OPTIONS:
 1. Create Account
 2. Deposit Money
