@@ -18,10 +18,10 @@ This is a Banking Management System developed in C++, using classes and file han
 💾 Save account details to text file  
 ❌ Exit the application  
 ## 📂 FILE STRUCTURE:
-. 📦 Banking-Management-System/
-. ├── 🧾 bankapp.cpp -> Menu-driven main program logic
-. ├── 🧾 bank.cpp -> Bank class definitions and operations
-. ├── 📘 bank.h -> Class declarations & function prototypes
+- 📦 Banking-Management-System/
+- ├── 🧾 bankapp.cpp -> Menu-driven main program logic
+- ├── 🧾 bank.cpp -> Bank class definitions and operations
+- ├── 📘 bank.h -> Class declarations & function prototypes
 ## ⚙️ HOW TO COMPILE AND RUN:
 ### ✅ METHOD 1: Manual Compilation
 g++ bankapp.cpp bank.cpp -o banking_system
