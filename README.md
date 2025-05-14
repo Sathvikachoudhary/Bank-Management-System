@@ -29,13 +29,13 @@ This is a Banking Management System developed in C++, using classes and file han
 - `banking_system.exe`      # For Windows
 ### ✅ METHOD 2: Using Makefile (Optional)
 - `banking_system`: bankapp.o bank.o
--	g++ bankapp.o bank.o -o banking_system
+  g++ bankapp.o bank.o -o banking_system
 - `bankapp.o`: bankapp.cpp
--	g++ -c bankapp.cpp
+  g++ -c bankapp.cpp
 - `bank.o`: bank.cpp
--	g++ -c bank.cpp
+  g++ -c bank.cpp
 - clean:
--	rm -f *.o banking_system
+-	rm -f *.o `banking_system`
 - To compile: `make`
 - To run: `./banking_system`
 ## 🖥️ MENU OPTIONS:
