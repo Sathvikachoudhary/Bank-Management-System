@@ -24,7 +24,6 @@ This is a Banking Management System developed in C++, using classes and file han
 ├── 📘 bank.h -> Class declarations & function prototypes
 ## ⚙️ HOW TO COMPILE AND RUN:
 ### ✅ METHOD 1: Manual Compilation
-```bash
 g++ bankapp.cpp bank.cpp -o banking_system
 ./banking_system        # For Linux/macOS
 banking_system.exe      # For Windows
@@ -39,7 +38,7 @@ clean:
 	rm -f *.o banking_system
 To compile: make
 To run: ./banking_system
-### 🖥️ MENU OPTIONS:
+## 🖥️ MENU OPTIONS:
 1. Create Account
 2. Deposit Money
 3. Withdraw Money
