@@ -35,7 +35,7 @@ This is a Banking Management System developed in C++, using classes and file han
 - `bank.o`: bank.cpp
   g++ -c bank.cpp
 - clean:
--	rm -f *.o `banking_system`
+	rm -f *.o `banking_system`
 - To compile: `make`
 - To run: `./banking_system`
 ## 🖥️ MENU OPTIONS:
